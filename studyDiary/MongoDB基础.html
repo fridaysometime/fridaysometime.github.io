@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MongoDB基础 | 我的小天地</title>
+    <meta name="description" content="here is mysite">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.f00e75f3.css" as="style"><link rel="preload" href="/assets/js/app.21fc7165.js" as="script"><link rel="preload" href="/assets/js/98.cd50d53c.js" as="script"><link rel="prefetch" href="/assets/js/10.77ddf168.js"><link rel="prefetch" href="/assets/js/100.72376ebc.js"><link rel="prefetch" href="/assets/js/101.7e92dcce.js"><link rel="prefetch" href="/assets/js/102.d26ace53.js"><link rel="prefetch" href="/assets/js/103.4f071c6b.js"><link rel="prefetch" href="/assets/js/104.68913947.js"><link rel="prefetch" href="/assets/js/105.7c5f4e31.js"><link rel="prefetch" href="/assets/js/106.d3f3424c.js"><link rel="prefetch" href="/assets/js/107.384cbc4b.js"><link rel="prefetch" href="/assets/js/108.58c1a8ed.js"><link rel="prefetch" href="/assets/js/109.592ca513.js"><link rel="prefetch" href="/assets/js/11.fb633ed3.js"><link rel="prefetch" href="/assets/js/110.2387ccdb.js"><link rel="prefetch" href="/assets/js/111.3adc7fd4.js"><link rel="prefetch" href="/assets/js/112.043aeb0d.js"><link rel="prefetch" href="/assets/js/113.28e7ece7.js"><link rel="prefetch" href="/assets/js/114.c2a39640.js"><link rel="prefetch" href="/assets/js/115.d69cc20a.js"><link rel="prefetch" href="/assets/js/116.23269a8b.js"><link rel="prefetch" href="/assets/js/117.bb096cb5.js"><link rel="prefetch" href="/assets/js/118.d630c8af.js"><link rel="prefetch" href="/assets/js/119.6b68bb67.js"><link rel="prefetch" href="/assets/js/12.d634c6b6.js"><link rel="prefetch" href="/assets/js/120.2c3c6894.js"><link rel="prefetch" href="/assets/js/121.cb26b817.js"><link rel="prefetch" href="/assets/js/122.8e57909d.js"><link rel="prefetch" href="/assets/js/123.7c4ed3b7.js"><link rel="prefetch" href="/assets/js/124.4d229fc4.js"><link rel="prefetch" href="/assets/js/125.8308ed0a.js"><link rel="prefetch" href="/assets/js/126.57c6442c.js"><link rel="prefetch" href="/assets/js/127.9338f913.js"><link rel="prefetch" href="/assets/js/128.7a0b895a.js"><link rel="prefetch" href="/assets/js/129.a1d4aea2.js"><link rel="prefetch" href="/assets/js/13.e330f7db.js"><link rel="prefetch" href="/assets/js/130.15664e23.js"><link rel="prefetch" href="/assets/js/131.a725dcd2.js"><link rel="prefetch" href="/assets/js/132.838cb70d.js"><link rel="prefetch" href="/assets/js/133.cbdf7276.js"><link rel="prefetch" href="/assets/js/14.c68bef90.js"><link rel="prefetch" href="/assets/js/15.3157a246.js"><link rel="prefetch" href="/assets/js/16.2962be19.js"><link rel="prefetch" href="/assets/js/17.f4f7b3f6.js"><link rel="prefetch" href="/assets/js/18.263a4859.js"><link rel="prefetch" href="/assets/js/19.99fb5921.js"><link rel="prefetch" href="/assets/js/20.24e69b19.js"><link rel="prefetch" href="/assets/js/21.d27fc0ca.js"><link rel="prefetch" href="/assets/js/22.898767e5.js"><link rel="prefetch" href="/assets/js/23.ebd340a0.js"><link rel="prefetch" href="/assets/js/24.b41d02fb.js"><link rel="prefetch" href="/assets/js/25.f85ce66b.js"><link rel="prefetch" href="/assets/js/26.e3a66d4f.js"><link rel="prefetch" href="/assets/js/27.1db2160c.js"><link rel="prefetch" href="/assets/js/28.9dee9ccb.js"><link rel="prefetch" href="/assets/js/29.a4bc7d56.js"><link rel="prefetch" href="/assets/js/3.87f8e697.js"><link rel="prefetch" href="/assets/js/30.a5d1adac.js"><link rel="prefetch" href="/assets/js/31.ce3a2866.js"><link rel="prefetch" href="/assets/js/32.c022f01a.js"><link rel="prefetch" href="/assets/js/33.7b2bd810.js"><link rel="prefetch" href="/assets/js/34.e368eaf9.js"><link rel="prefetch" href="/assets/js/35.a53794dd.js"><link rel="prefetch" href="/assets/js/36.90e47b7b.js"><link rel="prefetch" href="/assets/js/37.23a9a793.js"><link rel="prefetch" href="/assets/js/38.4280a64c.js"><link rel="prefetch" href="/assets/js/39.b5569187.js"><link rel="prefetch" href="/assets/js/4.fc2e3498.js"><link rel="prefetch" href="/assets/js/40.a222dcd7.js"><link rel="prefetch" href="/assets/js/41.d7d087d2.js"><link rel="prefetch" href="/assets/js/42.0283d3c0.js"><link rel="prefetch" href="/assets/js/43.32388d5e.js"><link rel="prefetch" href="/assets/js/44.e4e23599.js"><link rel="prefetch" href="/assets/js/45.4aba455a.js"><link rel="prefetch" href="/assets/js/46.60750c8e.js"><link rel="prefetch" href="/assets/js/47.d0d66696.js"><link rel="prefetch" href="/assets/js/48.c00c91da.js"><link rel="prefetch" href="/assets/js/49.c7ee7317.js"><link rel="prefetch" href="/assets/js/5.073f04da.js"><link rel="prefetch" href="/assets/js/50.49c34cfe.js"><link rel="prefetch" href="/assets/js/51.4969bb0f.js"><link rel="prefetch" href="/assets/js/52.9af50168.js"><link rel="prefetch" href="/assets/js/53.9eaf0570.js"><link rel="prefetch" href="/assets/js/54.9b525d72.js"><link rel="prefetch" href="/assets/js/55.037a6cf9.js"><link rel="prefetch" href="/assets/js/56.1a82c27d.js"><link rel="prefetch" href="/assets/js/57.a26897c7.js"><link rel="prefetch" href="/assets/js/58.86e43bad.js"><link rel="prefetch" href="/assets/js/59.3d0dcce9.js"><link rel="prefetch" href="/assets/js/6.cb238ab6.js"><link rel="prefetch" href="/assets/js/60.94e22b00.js"><link rel="prefetch" href="/assets/js/61.10aab864.js"><link rel="prefetch" href="/assets/js/62.850e11a7.js"><link rel="prefetch" href="/assets/js/63.c45c2f9d.js"><link rel="prefetch" href="/assets/js/64.47a82193.js"><link rel="prefetch" href="/assets/js/65.4b9b194e.js"><link rel="prefetch" href="/assets/js/66.33263553.js"><link rel="prefetch" href="/assets/js/67.4207ce17.js"><link rel="prefetch" href="/assets/js/68.b559d50a.js"><link rel="prefetch" href="/assets/js/69.4305dd76.js"><link rel="prefetch" href="/assets/js/7.734625c8.js"><link rel="prefetch" href="/assets/js/70.20f2775d.js"><link rel="prefetch" href="/assets/js/71.6fffb114.js"><link rel="prefetch" href="/assets/js/72.236d90cd.js"><link rel="prefetch" href="/assets/js/73.5b801045.js"><link rel="prefetch" href="/assets/js/74.5698c503.js"><link rel="prefetch" href="/assets/js/75.b7c0b5dc.js"><link rel="prefetch" href="/assets/js/76.55208887.js"><link rel="prefetch" href="/assets/js/77.6050e344.js"><link rel="prefetch" href="/assets/js/78.f2df4ed8.js"><link rel="prefetch" href="/assets/js/79.38139ab0.js"><link rel="prefetch" href="/assets/js/8.204c29ff.js"><link rel="prefetch" href="/assets/js/80.faf07d95.js"><link rel="prefetch" href="/assets/js/81.89134c80.js"><link rel="prefetch" href="/assets/js/82.a1b28472.js"><link rel="prefetch" href="/assets/js/83.5c3f0588.js"><link rel="prefetch" href="/assets/js/84.02d8001e.js"><link rel="prefetch" href="/assets/js/85.dbfb4564.js"><link rel="prefetch" href="/assets/js/86.8f8a28e5.js"><link rel="prefetch" href="/assets/js/87.47410eb6.js"><link rel="prefetch" href="/assets/js/88.57b92e6e.js"><link rel="prefetch" href="/assets/js/89.eb0bc727.js"><link rel="prefetch" href="/assets/js/9.4ed47bd6.js"><link rel="prefetch" href="/assets/js/90.853e4852.js"><link rel="prefetch" href="/assets/js/91.5df52d19.js"><link rel="prefetch" href="/assets/js/92.70253793.js"><link rel="prefetch" href="/assets/js/93.2f432fed.js"><link rel="prefetch" href="/assets/js/94.0c32d97b.js"><link rel="prefetch" href="/assets/js/95.dc1bc72e.js"><link rel="prefetch" href="/assets/js/96.8711aa7d.js"><link rel="prefetch" href="/assets/js/97.8aa87e11.js"><link rel="prefetch" href="/assets/js/99.b4c61b3a.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.241ee574.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f00e75f3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header id="navbarWrapper" class="navbar"><div class="sidebar-button"><i class="iconfont reco-menu"></i></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">我的小天地</span></a> <div class="links" style="max-width:nullpx;"><div class="side-search-wrapper"><div class="search-box" data-v-1b2e3b29><input aria-label="Search" autocomplete="off" spellcheck="false" value="" data-v-1b2e3b29> <i class="iconfont reco-search" data-v-1b2e3b29></i> <!----></div></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      blogs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/react/" class="nav-link"><i class="iconfont undefined"></i>
+  React学习汇总
+</a></li><li class="dropdown-item"><!----> <a href="/vuePress/" class="nav-link"><i class="iconfont undefined"></i>
+  使用 GitHub Pages 和 VuePress 搭建网站
+</a></li><li class="dropdown-item"><!----> <a href="/studyDiary/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  学习总结
+</a></li><li class="dropdown-item"><!----> <a href="/pythonLeetcode/" class="nav-link"><i class="iconfont undefined"></i>
+  Python_leetcode
+</a></li><li class="dropdown-item"><!----> <a href="/newyear2020/" class="nav-link"><i class="iconfont undefined"></i>
+  NewYear_2020
+</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont undefined"></i>
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      GitHub
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/fridaysometime" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub地址
+  </a></li></ul></div></div><div class="nav-item"><a href="/tags/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tags
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><div class="side-search-wrapper"><div class="search-box" data-v-1b2e3b29><input aria-label="Search" autocomplete="off" spellcheck="false" value="" data-v-1b2e3b29> <i class="iconfont reco-search" data-v-1b2e3b29></i> <!----></div></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      blogs
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/react/" class="nav-link"><i class="iconfont undefined"></i>
+  React学习汇总
+</a></li><li class="dropdown-item"><!----> <a href="/vuePress/" class="nav-link"><i class="iconfont undefined"></i>
+  使用 GitHub Pages 和 VuePress 搭建网站
+</a></li><li class="dropdown-item"><!----> <a href="/studyDiary/" class="nav-link router-link-active"><i class="iconfont undefined"></i>
+  学习总结
+</a></li><li class="dropdown-item"><!----> <a href="/pythonLeetcode/" class="nav-link"><i class="iconfont undefined"></i>
+  Python_leetcode
+</a></li><li class="dropdown-item"><!----> <a href="/newyear2020/" class="nav-link"><i class="iconfont undefined"></i>
+  NewYear_2020
+</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont undefined"></i>
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont undefined"></i>
+      GitHub
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/fridaysometime" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub地址
+  </a></li></ul></div></div><div class="nav-item"><a href="/tags/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tags
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading open"><span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/studyDiary/boxplot.html" class="sidebar-link">箱图</a></li><li><a href="/studyDiary/data_cleaning.html" class="sidebar-link">data_cleaning</a></li><li><a href="/studyDiary/data_distribution.html" class="sidebar-link">数据分布</a></li><li><a href="/studyDiary/Summaries.html" class="sidebar-link">产品概念</a></li><li><a href="/studyDiary/anaconda 基础.html" class="sidebar-link">anaconda 基础</a></li><li><a href="/studyDiary/github_basic.html" class="sidebar-link">Git基础</a></li><li><a href="/studyDiary/SQL基础.html" class="sidebar-link">SQL基础</a></li><li><a href="/studyDiary/mysql相关.html" class="sidebar-link">mysql相关</a></li><li><a href="/studyDiary/大数据基础.html" class="sidebar-link">大数据基础</a></li><li><a href="/studyDiary/大数据测试方法.html" class="sidebar-link">大数据测试方法</a></li><li><a href="/studyDiary/Flume与kafka.html" class="sidebar-link">Flume与kafka</a></li><li><a href="/studyDiary/hadoop与storm与spark.html" class="sidebar-link">hadoop,storm与spark</a></li><li><a href="/studyDiary/分布式抢锁设计.html" class="sidebar-link">分布式抢锁设计</a></li><li><a href="/studyDiary/feature engineer.html" class="sidebar-link">特征工程</a></li><li><a href="/studyDiary/Nginx服务器.html" class="sidebar-link">Nginx服务器</a></li><li><a href="/studyDiary/cookie和session.html" class="sidebar-link">cookie 和 session</a></li><li><a href="/studyDiary/ES基础.html" class="sidebar-link">ES基础</a></li><li><a href="/studyDiary/http和https.html" class="sidebar-link">http和https</a></li><li><a href="/studyDiary/Linux基础.html" class="sidebar-link">Linux基础</a></li><li><a href="/studyDiary/MongoDB基础.html" class="active sidebar-link">MongoDB基础</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/studyDiary/MongoDB基础.html#mongodb基础" class="sidebar-link">MongoDB基础</a></li></ul></li><li><a href="/studyDiary/Redis基础.html" class="sidebar-link">Redis基础</a></li><li><a href="/studyDiary/Post和Get.html" class="sidebar-link">Post和Get</a></li><li><a href="/studyDiary/JAVA常用的测试框架.html" class="sidebar-link">JAVA常用的测试框架</a></li><li><a href="/studyDiary/Jenkins持续集成.html" class="sidebar-link">Jenkins持续集成</a></li><li><a href="/studyDiary/python2和3的区别.html" class="sidebar-link">python2和3的区别</a></li><li><a href="/studyDiary/python常用的测试框架.html" class="sidebar-link">python常用的测试框架</a></li><li><a href="/studyDiary/Python的filter方法.html" class="sidebar-link">Python的filter方法</a></li><li><a href="/studyDiary/Python之generator.html" class="sidebar-link">Python之generator</a></li><li><a href="/studyDiary/Python之面试.html" class="sidebar-link">Python之面试</a></li><li><a href="/studyDiary/Python之常用排序算法.html" class="sidebar-link">Python之常用排序算法</a></li><li><a href="/studyDiary/Python之迭代器.html" class="sidebar-link">Python之迭代器</a></li><li><a href="/studyDiary/Python之内存回收机制.html" class="sidebar-link">Python之内存回收机制</a></li><li><a href="/studyDiary/Python之爬虫.html" class="sidebar-link">Python之爬虫</a></li><li><a href="/studyDiary/Python之提高运行效率.html" class="sidebar-link">Python之提高运行效率</a></li><li><a href="/studyDiary/python3之super.html" class="sidebar-link">python3之super</a></li><li><a href="/studyDiary/python多线程.html" class="sidebar-link">python多线程</a></li><li><a href="/studyDiary/python之装饰器.html" class="sidebar-link">python之装饰器</a></li></ul></div></li></ul> </div> <div class="page" data-v-4bd020d4> <div class="page-title" data-v-4bd020d4><h1 data-v-4bd020d4>MongoDB基础</h1> <hr data-v-4bd020d4> <div data-v-2c25cede data-v-4bd020d4><i class="iconfont reco-account" data-v-2c25cede><span data-v-2c25cede>我的小天地</span></i> <!----> <!----> <!----></div></div> <div class="content" data-v-4bd020d4><h2 id="mongodb基础"><a href="#mongodb基础" aria-hidden="true" class="header-anchor">#</a> MongoDB基础</h2> <p><strong>1. mongodb 与mysql 的区别？</strong>
+mongodb的本质还是一个数据库产品，3.0以上版本其稳定性和健壮性有很大提升。它与mysql的区别在于它不会遵循一些约束，比如：sql标准、ACID属性，表结构等。其主要特性如下：
+ 面向集合文档的存储：适合存储Bson（json的扩展）形式的数据；
+ 格式自由，数据格式不固定，生产环境下修改结构都可以不影响程序运行；
+ 强大的查询语句，面向对象的查询语言，基本覆盖sql语言所有能力；
+ 完整的索引支持，支持查询计划；
+ 支持复制和自动故障转移；
+ 支持二进制数据及大型对象（文件）的高效存储；
+ 使用分片集群提升系统扩展性；
+ 使用内存映射存储引擎，把磁盘的IO操作转换成为内存的操作；</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>特点：
+高性能、易部署、易使用，存储数据非常方便。主要功能特性有：
+面向集合存储，易存储对象类型的数据。
+模式自由。
+支持动态查询。
+支持完全索引，包含内部对象。
+支持查询。
+支持复制和故障恢复。
+使用高效的二进制数据存储，包括大型对象（如视频等）。
+自动处理碎片，以支持云计算层次的扩展性
+支持Python，PHP，Ruby，Java，C，C#，Javascript，Perl及C++语言的驱动程序，社区中也提供了对Erlang及.NET等平台的驱动程序。
+文件存储格式为BSON（一种JSON的扩展）。
+可通过网络访问。
+
+功能：
+面向集合的存储：适合存储对象及JSON形式的数据。
+动态查询：Mongo支持丰富的查询表达式。查询指令使用JSON形式的标记，可轻易查询文档中内嵌的对象及数组。
+完整的索引支持：包括文档内嵌对象及数组。Mongo的查询优化器会分析查询表达式，并生成一个高效的查询计划。
+查询监视：Mongo包含一个监视工具用于分析数据库操作的性能。
+复制及自动故障转移：Mongo数据库支持服务器之间的数据复制，支持主-从模式及服务器之间的相互复制。复制的主要目标是提供冗余及自动故障转移。
+高效的传统存储方式：支持二进制数据及大型对象（如照片或图片）
+自动分片以支持云级别的伸缩性：自动分片功能支持水平的数据库集群，可动态添加额外的机器。
+
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><p><strong>2. mongoDB 主要使用在什么应用场景？</strong>
+ MongoDB 的应用已经渗透到各个领域，比如游戏、物流、电商、内容管理、社交、物联网、视频直播等，以下是几个实际的应用案例：
+ 游戏场景，使用 MongoDB 存储游戏用户信息，用户的装备、积分等直接以内嵌文档的形式存储，方便查询、更新
+ 物流场景，使用 MongoDB 存储订单信息，订单状态在运送过程中会不断更新，以MongoDB 内嵌数组的形式来存储，一次查询就能将订单所有的变更读取出来。
+ 社交场景，使用 MongoDB 存储存储用户信息，以及用户发表的朋友圈信息，通过地理位置索引实现附近的人、地点等功能
+ 物联网场景，使用 MongoDB 存储所有接入的智能设备信息，以及设备汇报的日志信息，并对这些信息进行多维度的分析
+ 视频直播，使用 MongoDB 存储用户信息、礼物信息等</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>网站数据：Mongo非常适合实时的插入，更新与查询，并具备网站实时数据存储所需的复制及高度伸缩性。
+缓存：由于性能很高，Mongo也适合作为信息基础设施的缓存层。在系统重启之后，由Mongo搭建的持久化缓存层可以避免下层的数据源 过载。
+大尺寸，低价值的数据：使用传统的关系型数据库存储一些数据时可能会比较昂贵，在此之前，很多时候程序员往往会选择传统的文件进行存储。
+高伸缩性的场景：Mongo非常适合由数十或数百台服务器组成的数据库。Mongo的路线图中已经包含对MapReduce引擎的内置支持。
+用于对象及JSON数据的存储：Mongo的BSON数据格式非常适合文档化格式的存储及查询。
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>3. 怎么样做mongodb 查询优化</strong>
+ 第一步 找出慢速查询
+<strong>1. 开启内置的查询分析器,记录读写操作效率:</strong>
+db.setProfilingLevel(n,{m}),n的取值可选0,1,2；
+ 0是默认值表示不记录；
+ 1表示记录慢速操作,如果值为1,m必须赋值单位为ms,用于定义慢速查询时间的阈值；
+ 2表示记录所有的读写操作；
+例如:db.setProfilingLevel(1,300)
+<strong>2. 查询监控结果</strong>
+监控结果保存在一个特殊的盖子集合system.profile里,这个集合分配了128kb的空间,要确保监控分析数据不会消耗太多的系统性资源；盖子集合维护了自然的插入顺序,可以使用$natural操作符进行排序,如:db.system.profile.find().sort({'$natural':-1}).limit(5)</p> <p> 第二步 分析慢速查询
+找出慢速查询的原因比较棘手,原因可能有多个:应用程序设计不合理、不正确的数据模型、硬件配置问题,缺少索引等；接下来对于缺少索引的情况进行分析:使用explain分析慢速查询
+例如:db.orders.find({'price':{'$lt':2000}}).explain('executionStats')
+explain的入参可选值为:
+ &quot;queryPlanner&quot; 是默认值,表示仅仅展示执行计划信息；
+ &quot;executionStats&quot; 表示展示执行计划信息同时展示被选中的执行计划的执行情况信息；
+  &quot;allPlansExecution&quot; 表示展示执行计划信息,并展示被选中的执行计划的执行情况信息,还展示备选的执行计划的执行情况信息；</p> <p> 第三步 解读explain结果
+queryPlanner（执行计划描述）
+winningPlan（被选中的执行计划）
+stage（可选项:COLLSCAN 没有走索引；IXSCAN使用了索引）
+rejectedPlans(候选的执行计划)
+executionStats(执行情况描述)
+nReturned （返回的文档个数）
+executionTimeMillis（执行时间ms）
+totalKeysExamined （检查的索引键值个数）
+totalDocsExamined （检查的文档个数）</p> <p>优化目标 Tips:
+\1. 根据需求建立索引
+\2. 每个查询都要使用索引以提高查询效率, winningPlan. stage 必须为IXSCAN ；
+\3. 追求totalDocsExamined = nReturned</p> <ol start="4"><li>mongodb 的索引注意事项？</li> <li>索引很有用,但是它也是有成本的——它占内存,让写入变慢；</li> <li>mongoDB通常在一次查询里使用一个索引,所以多个字段的查询或者排序需要复合索引才能更加高效；</li> <li>复合索引的顺序非常重要</li> <li>在生成环境构建索引往往开销很大,时间也不可以接受,在数据量庞大之前尽量进行查询优化和构建索引；</li> <li>避免昂贵的查询,使用查询分析器记录那些开销很大的查询便于问题排查；</li> <li>通过减少扫描文档数量来优化查询,使用explai对开销大的查询进行分析并优化；</li> <li>索引是用来查询小范围数据的，不适合使用索引的情况：
+     每次查询都需要返回大部分数据的文档，避免使用索引
+     写比读多</li></ol> <p><strong>5. mongodb 是怎么实现高可用？</strong></p> <p><img src="https://oscimg.oschina.net/oscnet/0def6f4df5304f96f40afe51de04bc8bc46.jpg" alt="img"></p></div> <!----> <!----> <div class="page-edit" data-v-4bd020d4><!----> <div class="last-updated" data-v-4bd020d4><span class="prefix" data-v-4bd020d4>Last Updated: </span> <span class="time" data-v-4bd020d4>8/14/2019, 11:02:47 PM</span></div></div> <!----> </div> <div class="valine-wrapper" data-v-63f18ac0><div id="valine" style="display:;" data-v-63f18ac0></div></div> <!----> <!----> <div class="back-to-ceiling" style="right:1rem;bottom:3rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-41016a8b data-v-41016a8b><i class="iconfont reco-up" data-v-41016a8b></i></div></div></div>
+    <script src="/assets/js/app.21fc7165.js" defer></script><script src="/assets/js/98.cd50d53c.js" defer></script>
+  </body>
+</html>
